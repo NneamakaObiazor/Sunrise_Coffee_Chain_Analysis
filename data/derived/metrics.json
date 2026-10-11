@@ -1,0 +1,1243 @@
+{
+  "data_quality": {
+    "net_profit_formula_max_abs_diff": 1.8189894035458565e-11,
+    "member_plus_nonmember_max_abs_diff": 1.4551915228366852e-11,
+    "categories_sum_max_abs_diff": 9.094947017729282e-13,
+    "store_formats": {
+      "High-Street": 58,
+      "Transport-Hub": 2
+    },
+    "location_types": {
+      "City-Centre": 30,
+      "Suburban-High-Street": 16,
+      "Shopping-Centre": 12,
+      "Train-Station": 2
+    },
+    "rent_bands_present": {
+      "Medium": 716,
+      "Low": 573,
+      "High": 151
+    },
+    "status_mismatch_rows": 600,
+    "status_supplied": {
+      "Highly-Profitable": 327,
+      "Profitable": 581,
+      "Break-Even": 368,
+      "Loss-Making": 147,
+      "Structural-Loss": 17
+    },
+    "status_recomputed": {
+      "Highly-Profitable": 676,
+      "Profitable": 391,
+      "Break-Even": 176,
+      "Loss-Making": 121,
+      "Structural-Loss": 76
+    },
+    "status_crosstab": {
+      "Break-Even": {
+        "Break-Even": 176,
+        "Highly-Profitable": 0,
+        "Loss-Making": 0,
+        "Profitable": 0,
+        "Structural-Loss": 0
+      },
+      "Highly-Profitable": {
+        "Break-Even": 0,
+        "Highly-Profitable": 327,
+        "Loss-Making": 0,
+        "Profitable": 349,
+        "Structural-Loss": 0
+      },
+      "Loss-Making": {
+        "Break-Even": 33,
+        "Highly-Profitable": 0,
+        "Loss-Making": 88,
+        "Profitable": 0,
+        "Structural-Loss": 0
+      },
+      "Profitable": {
+        "Break-Even": 159,
+        "Highly-Profitable": 0,
+        "Loss-Making": 0,
+        "Profitable": 232,
+        "Structural-Loss": 0
+      },
+      "Structural-Loss": {
+        "Break-Even": 0,
+        "Highly-Profitable": 0,
+        "Loss-Making": 59,
+        "Profitable": 0,
+        "Structural-Loss": 17
+      }
+    },
+    "rent_ratio_vs_dim_range": [
+      0.8411670160726765,
+      1.1592331689192077
+    ],
+    "staff_ratio_vs_dim_range": [
+      0.7179218170566543,
+      1.239364536779969
+    ],
+    "daily_rows": 10000,
+    "daily_distinct_store_days": 8910,
+    "daily_duplicate_store_days": 1090,
+    "daily_coverage_of_store_days": 0.20342465753424657,
+    "nulls_monthly": 0,
+    "seating_nulls": 0,
+    "margin_min_max": [
+      -3.3921,
+      0.4946
+    ],
+    "gm_pl": 0.621082069889481,
+    "gm_daily": 0.6296890708825077
+  },
+  "totals": {
+    "revenue": 89685989.17999999,
+    "net_profit": 16879504.07,
+    "margin": 0.18820670011369106,
+    "cogs_pct": 0.37891793011051905,
+    "rent_pct": 0.10372195250397528,
+    "staffing_pct": 0.3098620961209986,
+    "loyalty_pct": 0.019291321150816127,
+    "loyalty_cost": 1730161.2200000002,
+    "by_year": {
+      "2023": {
+        "total_monthly_revenue_gbp": 44982189.94,
+        "total_monthly_cogs_gbp": 17093457.31,
+        "monthly_rent_gbp": 4654066.35,
+        "monthly_staffing_cost_gbp": 13894276.12,
+        "loyalty_redemption_cost_gbp": 867224.61,
+        "net_profit_gbp": 8473165.55,
+        "margin": 0.1884
+      },
+      "2024": {
+        "total_monthly_revenue_gbp": 44703799.24,
+        "total_monthly_cogs_gbp": 16890172.07,
+        "monthly_rent_gbp": 4648339.56,
+        "monthly_staffing_cost_gbp": 13896012.48,
+        "loyalty_redemption_cost_gbp": 862936.61,
+        "net_profit_gbp": 8406338.52,
+        "margin": 0.188
+      }
+    }
+  },
+  "by_format": {
+    "High-Street": {
+      "stores": 58,
+      "revenue": 86499463.27,
+      "net_profit": 16078392.61,
+      "rent": 9020081.85,
+      "staffing": 26961336.94,
+      "sqft": 52.4552,
+      "footfall": 481.9662,
+      "adoption": 0.3283,
+      "n": 1392,
+      "margin": 0.1859,
+      "rent_pct": 0.1043,
+      "staffing_pct": 0.3117,
+      "loss_share_supplied": 0.1164,
+      "loss_share_recomputed": 0.1401,
+      "avg_rent_per_store": 6479.9439,
+      "avg_rev_per_store_month": 62140.419
+    },
+    "Transport-Hub": {
+      "stores": 2,
+      "revenue": 3186525.91,
+      "net_profit": 801111.46,
+      "rent": 282324.06,
+      "staffing": 828951.66,
+      "sqft": 50.0679,
+      "footfall": 455.4667,
+      "adoption": 0.4575,
+      "n": 48,
+      "margin": 0.2514,
+      "rent_pct": 0.0886,
+      "staffing_pct": 0.2601,
+      "loss_share_supplied": 0.0417,
+      "loss_share_recomputed": 0.0417,
+      "avg_rent_per_store": 5881.7512,
+      "avg_rev_per_store_month": 66385.9565
+    }
+  },
+  "by_location": {
+    "City-Centre": {
+      "stores": 30,
+      "revenue": 43981821.03,
+      "net_profit": 7060665.89,
+      "rent": 4967931.76,
+      "staffing": 14414827.15,
+      "sqft": 53.9714,
+      "footfall": 478.1833,
+      "adoption": 0.3349,
+      "n": 720,
+      "margin": 0.1605,
+      "rent_pct": 0.113,
+      "staffing_pct": 0.3277,
+      "loss_share_supplied": 0.1486,
+      "loss_share_recomputed": 0.175,
+      "avg_rent_per_store": 6899.9052,
+      "avg_rev_per_store_month": 61085.8625
+    },
+    "Shopping-Centre": {
+      "stores": 12,
+      "revenue": 18378349.44,
+      "net_profit": 4106104.86,
+      "rent": 1891080.55,
+      "staffing": 5081134.26,
+      "sqft": 54.3456,
+      "footfall": 477.3139,
+      "adoption": 0.3228,
+      "n": 288,
+      "margin": 0.2234,
+      "rent_pct": 0.1029,
+      "staffing_pct": 0.2765,
+      "loss_share_supplied": 0.0868,
+      "loss_share_recomputed": 0.0972,
+      "avg_rent_per_store": 6566.2519,
+      "avg_rev_per_store_month": 63813.7133
+    },
+    "Suburban-High-Street": {
+      "stores": 16,
+      "revenue": 24139292.8,
+      "net_profit": 4911621.86,
+      "rent": 2161069.54,
+      "staffing": 7465375.53,
+      "sqft": 48.1943,
+      "footfall": 492.5482,
+      "adoption": 0.3202,
+      "n": 384,
+      "margin": 0.2035,
+      "rent_pct": 0.0895,
+      "staffing_pct": 0.3093,
+      "loss_share_supplied": 0.0781,
+      "loss_share_recomputed": 0.1068,
+      "avg_rent_per_store": 5627.7853,
+      "avg_rev_per_store_month": 62862.7417
+    },
+    "Train-Station": {
+      "stores": 2,
+      "revenue": 3186525.91,
+      "net_profit": 801111.46,
+      "rent": 282324.06,
+      "staffing": 828951.66,
+      "sqft": 50.0679,
+      "footfall": 455.4667,
+      "adoption": 0.4575,
+      "n": 48,
+      "margin": 0.2514,
+      "rent_pct": 0.0886,
+      "staffing_pct": 0.2601,
+      "loss_share_supplied": 0.0417,
+      "loss_share_recomputed": 0.0417,
+      "avg_rent_per_store": 5881.7512,
+      "avg_rev_per_store_month": 66385.9565
+    }
+  },
+  "by_region": {
+    "London": {
+      "stores": 7,
+      "revenue": 10457372.29,
+      "net_profit": 883919.18,
+      "rent": 1973012.53,
+      "staffing": 3511255.06,
+      "sqft": 47.0274,
+      "footfall": 488.4833,
+      "adoption": 0.2406,
+      "n": 168,
+      "margin": 0.0845,
+      "rent_pct": 0.1887,
+      "staffing_pct": 0.3358,
+      "loss_share_supplied": 0.256,
+      "loss_share_recomputed": 0.2917,
+      "avg_rent_per_store": 11744.1222,
+      "avg_rev_per_store_month": 62246.2636
+    },
+    "North-West": {
+      "stores": 5,
+      "revenue": 7167688.43,
+      "net_profit": 1156200.74,
+      "rent": 572002.88,
+      "staffing": 2571567.21,
+      "sqft": 47.4333,
+      "footfall": 486.6683,
+      "adoption": 0.437,
+      "n": 120,
+      "margin": 0.1613,
+      "rent_pct": 0.0798,
+      "staffing_pct": 0.3588,
+      "loss_share_supplied": 0.1583,
+      "loss_share_recomputed": 0.175,
+      "avg_rent_per_store": 4766.6907,
+      "avg_rev_per_store_month": 59730.7369
+    },
+    "South-West": {
+      "stores": 5,
+      "revenue": 7525820.54,
+      "net_profit": 1219372.55,
+      "rent": 848669.15,
+      "staffing": 2492693.9,
+      "sqft": 63.5726,
+      "footfall": 472.0808,
+      "adoption": 0.4158,
+      "n": 120,
+      "margin": 0.162,
+      "rent_pct": 0.1128,
+      "staffing_pct": 0.3312,
+      "loss_share_supplied": 0.15,
+      "loss_share_recomputed": 0.1917,
+      "avg_rent_per_store": 7072.2429,
+      "avg_rev_per_store_month": 62715.1712
+    },
+    "North-East": {
+      "stores": 4,
+      "revenue": 5846507.21,
+      "net_profit": 1043584.83,
+      "rent": 522661.67,
+      "staffing": 1897499.49,
+      "sqft": 49.3577,
+      "footfall": 492.4698,
+      "adoption": 0.364,
+      "n": 96,
+      "margin": 0.1785,
+      "rent_pct": 0.0894,
+      "staffing_pct": 0.3246,
+      "loss_share_supplied": 0.0833,
+      "loss_share_recomputed": 0.1354,
+      "avg_rent_per_store": 5444.3924,
+      "avg_rev_per_store_month": 60901.1168
+    },
+    "East-Midlands": {
+      "stores": 5,
+      "revenue": 7590436.54,
+      "net_profit": 1364426.33,
+      "rent": 688520.19,
+      "staffing": 2480452.26,
+      "sqft": 62.2733,
+      "footfall": 485.8775,
+      "adoption": 0.2532,
+      "n": 120,
+      "margin": 0.1798,
+      "rent_pct": 0.0907,
+      "staffing_pct": 0.3268,
+      "loss_share_supplied": 0.1417,
+      "loss_share_recomputed": 0.1667,
+      "avg_rent_per_store": 5737.6683,
+      "avg_rev_per_store_month": 63253.6378
+    },
+    "Scotland": {
+      "stores": 4,
+      "revenue": 6186884.36,
+      "net_profit": 1131847.23,
+      "rent": 593771.02,
+      "staffing": 1993155.56,
+      "sqft": 65.232,
+      "footfall": 448.9448,
+      "adoption": 0.1748,
+      "n": 96,
+      "margin": 0.1829,
+      "rent_pct": 0.096,
+      "staffing_pct": 0.3222,
+      "loss_share_supplied": 0.0833,
+      "loss_share_recomputed": 0.1042,
+      "avg_rent_per_store": 6185.1148,
+      "avg_rev_per_store_month": 64446.7121
+    },
+    "South-East": {
+      "stores": 6,
+      "revenue": 8918824.97,
+      "net_profit": 1764034.53,
+      "rent": 1194230.14,
+      "staffing": 2403824.23,
+      "sqft": 49.8944,
+      "footfall": 477.7444,
+      "adoption": 0.3427,
+      "n": 144,
+      "margin": 0.1978,
+      "rent_pct": 0.1339,
+      "staffing_pct": 0.2695,
+      "loss_share_supplied": 0.0833,
+      "loss_share_recomputed": 0.0972,
+      "avg_rent_per_store": 8293.2649,
+      "avg_rev_per_store_month": 61936.2845
+    },
+    "Yorkshire-and-Humber": {
+      "stores": 6,
+      "revenue": 9090630.59,
+      "net_profit": 1913869.72,
+      "rent": 728529.19,
+      "staffing": 2856517.93,
+      "sqft": 47.1327,
+      "footfall": 483.2715,
+      "adoption": 0.3448,
+      "n": 144,
+      "margin": 0.2105,
+      "rent_pct": 0.0801,
+      "staffing_pct": 0.3142,
+      "loss_share_supplied": 0.0625,
+      "loss_share_recomputed": 0.0625,
+      "avg_rent_per_store": 5059.2305,
+      "avg_rev_per_store_month": 63129.3791
+    },
+    "East-of-England": {
+      "stores": 6,
+      "revenue": 9011244.27,
+      "net_profit": 1995460.43,
+      "rent": 904815.12,
+      "staffing": 2541771.08,
+      "sqft": 53.3637,
+      "footfall": 488.7097,
+      "adoption": 0.3977,
+      "n": 144,
+      "margin": 0.2214,
+      "rent_pct": 0.1004,
+      "staffing_pct": 0.2821,
+      "loss_share_supplied": 0.0833,
+      "loss_share_recomputed": 0.0903,
+      "avg_rent_per_store": 6283.4383,
+      "avg_rev_per_store_month": 62578.0852
+    },
+    "Wales": {
+      "stores": 6,
+      "revenue": 8854454.13,
+      "net_profit": 2018601.37,
+      "rent": 645757.42,
+      "staffing": 2619358.22,
+      "sqft": 41.8711,
+      "footfall": 485.5715,
+      "adoption": 0.2878,
+      "n": 144,
+      "margin": 0.228,
+      "rent_pct": 0.0729,
+      "staffing_pct": 0.2958,
+      "loss_share_supplied": 0.0486,
+      "loss_share_recomputed": 0.0694,
+      "avg_rent_per_store": 4484.4265,
+      "avg_rev_per_store_month": 61489.2648
+    },
+    "West-Midlands": {
+      "stores": 3,
+      "revenue": 4599218.71,
+      "net_profit": 1126683.28,
+      "rent": 305292.97,
+      "staffing": 1342162.0,
+      "sqft": 46.454,
+      "footfall": 472.9972,
+      "adoption": 0.446,
+      "n": 72,
+      "margin": 0.245,
+      "rent_pct": 0.0664,
+      "staffing_pct": 0.2918,
+      "loss_share_supplied": 0.0833,
+      "loss_share_recomputed": 0.125,
+      "avg_rent_per_store": 4240.1801,
+      "avg_rev_per_store_month": 63878.0376
+    },
+    "Northern-Ireland": {
+      "stores": 3,
+      "revenue": 4436907.14,
+      "net_profit": 1261503.88,
+      "rent": 325143.63,
+      "staffing": 1080031.66,
+      "sqft": 65.2182,
+      "footfall": 475.3403,
+      "adoption": 0.3377,
+      "n": 72,
+      "margin": 0.2843,
+      "rent_pct": 0.0733,
+      "staffing_pct": 0.2434,
+      "loss_share_supplied": 0.0694,
+      "loss_share_recomputed": 0.0833,
+      "avg_rent_per_store": 4515.8838,
+      "avg_rev_per_store_month": 61623.7103
+    }
+  },
+  "region_status_recomputed": {
+    "East-Midlands": {
+      "Highly-Profitable": 57,
+      "Profitable": 32,
+      "Break-Even": 11,
+      "Loss-Making": 10,
+      "Structural-Loss": 10
+    },
+    "East-of-England": {
+      "Highly-Profitable": 78,
+      "Profitable": 35,
+      "Break-Even": 18,
+      "Loss-Making": 7,
+      "Structural-Loss": 6
+    },
+    "London": {
+      "Highly-Profitable": 33,
+      "Profitable": 52,
+      "Break-Even": 34,
+      "Loss-Making": 32,
+      "Structural-Loss": 17
+    },
+    "North-East": {
+      "Highly-Profitable": 49,
+      "Profitable": 22,
+      "Break-Even": 12,
+      "Loss-Making": 8,
+      "Structural-Loss": 5
+    },
+    "North-West": {
+      "Highly-Profitable": 47,
+      "Profitable": 35,
+      "Break-Even": 17,
+      "Loss-Making": 8,
+      "Structural-Loss": 13
+    },
+    "Northern-Ireland": {
+      "Highly-Profitable": 56,
+      "Profitable": 6,
+      "Break-Even": 4,
+      "Loss-Making": 4,
+      "Structural-Loss": 2
+    },
+    "Scotland": {
+      "Highly-Profitable": 47,
+      "Profitable": 29,
+      "Break-Even": 10,
+      "Loss-Making": 6,
+      "Structural-Loss": 4
+    },
+    "South-East": {
+      "Highly-Profitable": 67,
+      "Profitable": 40,
+      "Break-Even": 23,
+      "Loss-Making": 13,
+      "Structural-Loss": 1
+    },
+    "South-West": {
+      "Highly-Profitable": 47,
+      "Profitable": 32,
+      "Break-Even": 18,
+      "Loss-Making": 17,
+      "Structural-Loss": 6
+    },
+    "Wales": {
+      "Highly-Profitable": 79,
+      "Profitable": 47,
+      "Break-Even": 8,
+      "Loss-Making": 5,
+      "Structural-Loss": 5
+    },
+    "West-Midlands": {
+      "Highly-Profitable": 43,
+      "Profitable": 14,
+      "Break-Even": 6,
+      "Loss-Making": 7,
+      "Structural-Loss": 2
+    },
+    "Yorkshire-and-Humber": {
+      "Highly-Profitable": 73,
+      "Profitable": 47,
+      "Break-Even": 15,
+      "Loss-Making": 4,
+      "Structural-Loss": 5
+    }
+  },
+  "region_status_supplied": {
+    "East-Midlands": {
+      "Highly-Profitable": 29,
+      "Profitable": 46,
+      "Break-Even": 28,
+      "Loss-Making": 16,
+      "Structural-Loss": 1
+    },
+    "East-of-England": {
+      "Highly-Profitable": 41,
+      "Profitable": 59,
+      "Break-Even": 32,
+      "Loss-Making": 12,
+      "Structural-Loss": 0
+    },
+    "London": {
+      "Highly-Profitable": 14,
+      "Profitable": 55,
+      "Break-Even": 56,
+      "Loss-Making": 36,
+      "Structural-Loss": 7
+    },
+    "North-East": {
+      "Highly-Profitable": 17,
+      "Profitable": 44,
+      "Break-Even": 27,
+      "Loss-Making": 7,
+      "Structural-Loss": 1
+    },
+    "North-West": {
+      "Highly-Profitable": 26,
+      "Profitable": 40,
+      "Break-Even": 35,
+      "Loss-Making": 13,
+      "Structural-Loss": 6
+    },
+    "Northern-Ireland": {
+      "Highly-Profitable": 35,
+      "Profitable": 25,
+      "Break-Even": 7,
+      "Loss-Making": 5,
+      "Structural-Loss": 0
+    },
+    "Scotland": {
+      "Highly-Profitable": 22,
+      "Profitable": 40,
+      "Break-Even": 26,
+      "Loss-Making": 6,
+      "Structural-Loss": 2
+    },
+    "South-East": {
+      "Highly-Profitable": 29,
+      "Profitable": 64,
+      "Break-Even": 39,
+      "Loss-Making": 12,
+      "Structural-Loss": 0
+    },
+    "South-West": {
+      "Highly-Profitable": 21,
+      "Profitable": 43,
+      "Break-Even": 38,
+      "Loss-Making": 18,
+      "Structural-Loss": 0
+    },
+    "Wales": {
+      "Highly-Profitable": 33,
+      "Profitable": 73,
+      "Break-Even": 31,
+      "Loss-Making": 7,
+      "Structural-Loss": 0
+    },
+    "West-Midlands": {
+      "Highly-Profitable": 25,
+      "Profitable": 28,
+      "Break-Even": 13,
+      "Loss-Making": 6,
+      "Structural-Loss": 0
+    },
+    "Yorkshire-and-Humber": {
+      "Highly-Profitable": 35,
+      "Profitable": 64,
+      "Break-Even": 36,
+      "Loss-Making": 9,
+      "Structural-Loss": 0
+    }
+  },
+  "scorecard_flag_counts": {
+    "Healthy": 41,
+    "Watch": 10,
+    "Priority review": 9
+  },
+  "correlations": {
+    "staffing_pct~margin": -0.8292046265038974,
+    "rent_pct~margin": -0.45975250768965725,
+    "avg_rent~margin": -0.4202848839811022,
+    "avg_rent~avg_revenue": 0.146858561961111,
+    "avg_revenue~margin": 0.22980415003792817,
+    "gross_margin~margin": -0.11847265842830759,
+    "adoption~margin": -0.013653693789218126,
+    "footfall~revenue": -0.16913392606480382,
+    "dwell~margin": 0.05276170642787503,
+    "opening_year~margin": 0.1455735548948354,
+    "r2_margin_on_staffing_and_rent": 0.9901721967187436,
+    "r2_margin_on_staffing_only": 0.6875803126154679,
+    "coef_staffing_pct": -0.9926740418212345,
+    "coef_rent_pct": -0.9539406362877346
+  },
+  "rent_quartiles": {
+    "Q1 (lowest rent)": {
+      "stores": 15,
+      "avg_rent": 3744.0166,
+      "avg_rev": 61036.158,
+      "margin": 0.2238,
+      "rent_pct": 0.0615,
+      "staffing_pct": 0.3143
+    },
+    "Q2": {
+      "stores": 15,
+      "avg_rent": 4901.4274,
+      "avg_rev": 62519.097,
+      "margin": 0.2032,
+      "rent_pct": 0.0786,
+      "staffing_pct": 0.3177
+    },
+    "Q3": {
+      "stores": 15,
+      "avg_rent": 6786.9875,
+      "avg_rev": 63013.8987,
+      "margin": 0.174,
+      "rent_pct": 0.1079,
+      "staffing_pct": 0.3221
+    },
+    "Q4 (highest rent)": {
+      "stores": 15,
+      "avg_rent": 10407.5849,
+      "avg_rev": 62558.594,
+      "margin": 0.1481,
+      "rent_pct": 0.1668,
+      "staffing_pct": 0.2888
+    }
+  },
+  "prize": {
+    "london_margin": 0.08452593591272058,
+    "ex_london_margin": 0.20189150736037795,
+    "london_gap_per_year_gbp": 613667.7373283737,
+    "london_avg_rent": 11744.122202380951,
+    "estate_avg_rent": 6460.004104166666,
+    "london_rent_pct": 0.1886719220933464,
+    "london_staffing_pct": 0.33576839024442917,
+    "priority_review_stores": 9,
+    "priority_review_gap_per_year_gbp": 763405.5821167238,
+    "median_staffing_pct": 0.3086803229211778,
+    "staffing_to_median_per_year_gbp": 1168453.9733199405,
+    "stores_above_median_staffing": 30,
+    "bottom6_names": [
+      "Sunrise Coffee South London Corner",
+      "Sunrise Coffee Canary Wharf Express",
+      "Sunrise Coffee Manchester Collective",
+      "Sunrise Coffee North London Yard",
+      "Sunrise Coffee Canary Wharf Quarter",
+      "Sunrise Coffee Nottingham Quarter"
+    ]
+  },
+  "loyalty": {
+    "corr_adoption_member_share_store": 0.9981902175308505,
+    "corr_adoption_member_share_monthly": 0.9584402350078944,
+    "member_spend_multiple_mean": 0.9971044714328052,
+    "member_spend_multiple_min_max": [
+      0.7162636280767786,
+      1.2083544905443342
+    ],
+    "stores_multiple_gt_1_10": 4,
+    "corr_adoption_multiple": 0.028717165985489804,
+    "member_revenue": 29769500.729999997,
+    "redemption_cost": 1730161.2200000002,
+    "redemption_pct_of_member_rev": 0.05811858370390616,
+    "redemption_pct_of_total_rev": 0.019291321150816127,
+    "breakeven_uplift": 0.10323686194587049,
+    "naive_net_value": 28039339.509999998,
+    "stores_with_positive_naive_value": 60,
+    "redemption_zero_months": 3,
+    "adoption_bands": {
+      "Q1 low": {
+        "stores": 15.0,
+        "adoption": 0.1059,
+        "member_share": 0.1065,
+        "redemption_pct_rev": 0.0196,
+        "redemption_pct_member": 0.1838,
+        "margin": 0.178
+      },
+      "Q2": {
+        "stores": 15.0,
+        "adoption": 0.2753,
+        "member_share": 0.2726,
+        "redemption_pct_rev": 0.0193,
+        "redemption_pct_member": 0.0707,
+        "margin": 0.2183
+      },
+      "Q3": {
+        "stores": 15.0,
+        "adoption": 0.4189,
+        "member_share": 0.4161,
+        "redemption_pct_rev": 0.0192,
+        "redemption_pct_member": 0.0461,
+        "margin": 0.1758
+      },
+      "Q4 high": {
+        "stores": 15.0,
+        "adoption": 0.5303,
+        "member_share": 0.5334,
+        "redemption_pct_rev": 0.0191,
+        "redemption_pct_member": 0.0359,
+        "margin": 0.1809
+      }
+    },
+    "atv_by_adoption_band": {
+      "Q1 low": {
+        "atv": 7.2848,
+        "loy_tx_share": 0.1009
+      },
+      "Q2": {
+        "atv": 7.2885,
+        "loy_tx_share": 0.2621
+      },
+      "Q3": {
+        "atv": 7.2887,
+        "loy_tx_share": 0.401
+      },
+      "Q4 high": {
+        "atv": 7.2622,
+        "loy_tx_share": 0.5068
+      }
+    },
+    "atv_slope_per_unit_loyalty_share": -0.017661799502444873,
+    "corr_atv_loyalty_share_daily": -0.002345246274416819,
+    "atv_overall": 7.281324221134866,
+    "redemption_per_loyalty_tx_daily": 0.4829561035575098,
+    "by_region_adoption": {
+      "Scotland": 0.175,
+      "London": 0.241,
+      "East-Midlands": 0.253,
+      "Wales": 0.288,
+      "Northern-Ireland": 0.338,
+      "South-East": 0.343,
+      "Yorkshire-and-Humber": 0.345,
+      "North-East": 0.364,
+      "East-of-England": 0.398,
+      "South-West": 0.416,
+      "North-West": 0.437,
+      "West-Midlands": 0.446
+    },
+    "by_location_adoption": {
+      "City-Centre": 0.335,
+      "Shopping-Centre": 0.323,
+      "Suburban-High-Street": 0.32,
+      "Train-Station": 0.458
+    }
+  },
+  "mix": {
+    "overall": {
+      "Espresso": 0.45698239355115755,
+      "Filter": 0.1918520263244623,
+      "Food": 0.26070683141248047,
+      "Retail beans": 0.09045874871189985
+    },
+    "by_year": {
+      "2023": {
+        "Espresso": 0.45830658423163906,
+        "Filter": 0.19031718357526176,
+        "Food": 0.2624125053918964,
+        "Retail beans": 0.08896372680120262
+      },
+      "2024": {
+        "Espresso": 0.45563708728083957,
+        "Filter": 0.19341134372858443,
+        "Food": 0.2589739586975086,
+        "Retail beans": 0.0919776102930673
+      }
+    },
+    "by_location": {
+      "City-Centre": {
+        "Espresso": 0.455712011566459,
+        "Filter": 0.1923619395046504,
+        "Food": 0.2610431033369468,
+        "Retail beans": 0.09088294559194388
+      },
+      "Shopping-Centre": {
+        "Espresso": 0.46360867472759876,
+        "Filter": 0.18726813614655452,
+        "Food": 0.2598969930549324,
+        "Retail beans": 0.08922619607091427
+      },
+      "Suburban-High-Street": {
+        "Espresso": 0.453830138590733,
+        "Filter": 0.19252985618086507,
+        "Food": 0.26234163936058824,
+        "Retail beans": 0.09129836586781373
+      },
+      "Train-Station": {
+        "Espresso": 0.46134557938924087,
+        "Filter": 0.20384382129443085,
+        "Food": 0.24930761963876702,
+        "Retail beans": 0.08550297967756135
+      }
+    },
+    "trend_share_change_per_year": {
+      "Espresso": -0.0007633279865236662,
+      "Filter": 0.0031270346080924443,
+      "Food": -0.00405958707730494,
+      "Retail beans": 0.001695880455736124
+    },
+    "food_share_monthly_slope_per_month": -0.00029942068102641956,
+    "food_share_monthly_slope_t": -1.1767729305950996,
+    "food_share_first_last_month": [
+      0.2641746661759412,
+      0.2618958708349016
+    ]
+  },
+  "category_margin": {
+    "Cold-Drinks": {
+      "products": 4,
+      "avg_margin": 0.8132,
+      "min_margin": 0.771,
+      "max_margin": 0.85,
+      "avg_price": 2.8
+    },
+    "Espresso-Drinks": {
+      "products": 12,
+      "avg_margin": 0.8388,
+      "min_margin": 0.807,
+      "max_margin": 0.875,
+      "avg_price": 3.85
+    },
+    "Filter-Coffee": {
+      "products": 4,
+      "avg_margin": 0.883,
+      "min_margin": 0.857,
+      "max_margin": 0.904,
+      "avg_price": 3.275
+    },
+    "Food": {
+      "products": 10,
+      "avg_margin": 0.7398,
+      "min_margin": 0.708,
+      "max_margin": 0.752,
+      "avg_price": 3.08
+    },
+    "Merchandise": {
+      "products": 2,
+      "avg_margin": 0.702,
+      "min_margin": 0.679,
+      "max_margin": 0.725,
+      "avg_price": 11.0
+    },
+    "Retail-Beans": {
+      "products": 8,
+      "avg_margin": 0.677,
+      "min_margin": 0.66,
+      "max_margin": 0.694,
+      "avg_price": 14.475
+    }
+  },
+  "catalogue_margin_on_mix": 0.806848890458572,
+  "top_product_share_by_category": {
+    "Espresso-Drinks": 0.3092,
+    "Food": 0.2436,
+    "Retail-Beans": 0.1991,
+    "Cold-Drinks": 0.0999,
+    "Filter-Coffee": 0.0991,
+    "Merchandise": 0.0491
+  },
+  "weekday": {
+    "Monday": {
+      "rev": 2121.488,
+      "tx": 290.522,
+      "atv": 7.518,
+      "foot": 384.364,
+      "n": 1495,
+      "conv": 0.756
+    },
+    "Tuesday": {
+      "rev": 2208.955,
+      "tx": 303.884,
+      "atv": 7.468,
+      "foot": 403.051,
+      "n": 1383,
+      "conv": 0.754
+    },
+    "Wednesday": {
+      "rev": 2202.307,
+      "tx": 302.504,
+      "atv": 7.477,
+      "foot": 403.076,
+      "n": 1406,
+      "conv": 0.75
+    },
+    "Thursday": {
+      "rev": 2230.625,
+      "tx": 307.041,
+      "atv": 7.458,
+      "foot": 404.538,
+      "n": 1477,
+      "conv": 0.759
+    },
+    "Friday": {
+      "rev": 2218.716,
+      "tx": 303.74,
+      "atv": 7.49,
+      "foot": 400.463,
+      "n": 1427,
+      "conv": 0.758
+    },
+    "Saturday": {
+      "rev": 1662.776,
+      "tx": 229.239,
+      "atv": 7.476,
+      "foot": 303.287,
+      "n": 1419,
+      "conv": 0.756
+    },
+    "Sunday": {
+      "rev": 1658.555,
+      "tx": 227.499,
+      "atv": 7.496,
+      "foot": 301.642,
+      "n": 1393,
+      "conv": 0.754
+    }
+  },
+  "weekend_vs_weekday_pct": -0.2437177950482481,
+  "weekend_avg": 1660.6848648648647,
+  "weekday_avg": 2195.853418196995,
+  "bank_holiday_vs_all_other_days_pct": -0.33107617717533666,
+  "bank_holiday_vs_other_weekdays_pct": -0.37995982747811385,
+  "bank_holiday_rows": 245,
+  "trading_calendar": {
+    "Bank-Holiday": {
+      "rev": 1347.47,
+      "n": 197
+    },
+    "Christmas-Period": {
+      "rev": 2067.39,
+      "n": 188
+    },
+    "School-Holiday": {
+      "rev": 2074.73,
+      "n": 2311
+    },
+    "Standard-Trading-Day": {
+      "rev": 2054.33,
+      "n": 7304
+    }
+  },
+  "bank_holiday_by_location": {
+    "City-Centre": {
+      "bh": 1363.4509677419355,
+      "non_bh": 2042.800630850631,
+      "pct": -0.3325579857618368,
+      "n_bh": 124
+    },
+    "Shopping-Centre": {
+      "bh": 1340.3382222222222,
+      "non_bh": 2042.2737151702786,
+      "pct": -0.3437029462475999,
+      "n_bh": 45
+    },
+    "Suburban-High-Street": {
+      "bh": 1385.5011764705882,
+      "non_bh": 2055.816923373123,
+      "pct": -0.3260580936373948,
+      "n_bh": 68
+    },
+    "Train-Station": {
+      "bh": 1793.9025000000001,
+      "non_bh": 2550.6093464052287,
+      "pct": -0.2966768891801146,
+      "n_bh": 8
+    }
+  },
+  "weekend_by_location": {
+    "City-Centre": -0.24230147682433045,
+    "Shopping-Centre": -0.2416153453780503,
+    "Suburban-High-Street": -0.24054870563139086,
+    "Train-Station": -0.2658499359495977
+  },
+  "monthly_margin_corr_2023_2024": -0.5233776432209835,
+  "monthly_revenue_corr_2023_2024": -0.3519097363505938,
+  "monthly_netprofit_corr_2023_2024": -0.48865656330477064,
+  "best_worst_month_np": {
+    "best": [
+      [
+        2024,
+        11,
+        816898.08
+      ],
+      [
+        2023,
+        7,
+        807736.93
+      ],
+      [
+        2024,
+        3,
+        799319.2
+      ]
+    ],
+    "worst": [
+      [
+        2023,
+        11,
+        564015.17
+      ],
+      [
+        2024,
+        7,
+        611203.89
+      ],
+      [
+        2024,
+        5,
+        619729.55
+      ]
+    ]
+  },
+  "quarterly": {
+    "2023-Q1": {
+      "rev": 11330552.47,
+      "np": 2130509.23,
+      "margin": 0.18803224605693034
+    },
+    "2023-Q2": {
+      "rev": 11232985.55,
+      "np": 2151397.52,
+      "margin": 0.1915249966648448
+    },
+    "2023-Q3": {
+      "rev": 11338960.89,
+      "np": 2208462.2,
+      "margin": 0.19476760008473756
+    },
+    "2023-Q4": {
+      "rev": 11079691.03,
+      "np": 1982796.6,
+      "margin": 0.17895775203760356
+    },
+    "2024-Q1": {
+      "rev": 11411236.87,
+      "np": 2272879.99,
+      "margin": 0.19917910879366404
+    },
+    "2024-Q2": {
+      "rev": 11020515.14,
+      "np": 2028476.63,
+      "margin": 0.18406368524802005
+    },
+    "2024-Q3": {
+      "rev": 10899361.37,
+      "np": 1886469.46,
+      "margin": 0.17308073344484404
+    },
+    "2024-Q4": {
+      "rev": 11372685.86,
+      "np": 2218512.44,
+      "margin": 0.19507374663384927
+    }
+  },
+  "monthly_margin_range": [
+    0.15798655926842495,
+    0.20953929726120774
+  ],
+  "monthly_revenue_range_pct": 0.09202290566465066,
+  "hub_vs_hs_monthly_margin_range": {
+    "High-Street": [
+      0.17609155707805213,
+      0.19769282155566004
+    ],
+    "Transport-Hub": [
+      0.17974385426931083,
+      0.2865566463985105
+    ]
+  },
+  "corr_matrix": {
+    "Avg monthly revenue": {
+      "Avg monthly revenue": 1.0,
+      "Monthly rent": 0.147,
+      "Staffing % rev": -0.246,
+      "Rent % rev": 0.011,
+      "Gross margin": 0.032,
+      "Loyalty adoption": 0.003,
+      "Avg footfall": -0.169,
+      "Avg dwell (min)": 0.091,
+      "Opening year": -0.015,
+      "Net margin": 0.23
+    },
+    "Monthly rent": {
+      "Avg monthly revenue": 0.147,
+      "Monthly rent": 1.0,
+      "Staffing % rev": -0.14,
+      "Rent % rev": 0.989,
+      "Gross margin": 0.273,
+      "Loyalty adoption": -0.114,
+      "Avg footfall": 0.021,
+      "Avg dwell (min)": -0.001,
+      "Opening year": -0.082,
+      "Net margin": -0.42
+    },
+    "Staffing % rev": {
+      "Avg monthly revenue": -0.246,
+      "Monthly rent": -0.14,
+      "Staffing % rev": 1.0,
+      "Rent % rev": -0.105,
+      "Gross margin": 0.071,
+      "Loyalty adoption": 0.075,
+      "Avg footfall": 0.091,
+      "Avg dwell (min)": -0.057,
+      "Opening year": -0.146,
+      "Net margin": -0.829
+    },
+    "Rent % rev": {
+      "Avg monthly revenue": 0.011,
+      "Monthly rent": 0.989,
+      "Staffing % rev": -0.105,
+      "Rent % rev": 1.0,
+      "Gross margin": 0.269,
+      "Loyalty adoption": -0.121,
+      "Avg footfall": 0.043,
+      "Avg dwell (min)": -0.015,
+      "Opening year": -0.081,
+      "Net margin": -0.46
+    },
+    "Gross margin": {
+      "Avg monthly revenue": 0.032,
+      "Monthly rent": 0.273,
+      "Staffing % rev": 0.071,
+      "Rent % rev": 0.269,
+      "Gross margin": 1.0,
+      "Loyalty adoption": -0.184,
+      "Avg footfall": 0.164,
+      "Avg dwell (min)": -0.107,
+      "Opening year": -0.293,
+      "Net margin": -0.118
+    },
+    "Loyalty adoption": {
+      "Avg monthly revenue": 0.003,
+      "Monthly rent": -0.114,
+      "Staffing % rev": 0.075,
+      "Rent % rev": -0.121,
+      "Gross margin": -0.184,
+      "Loyalty adoption": 1.0,
+      "Avg footfall": -0.026,
+      "Avg dwell (min)": 0.027,
+      "Opening year": -0.023,
+      "Net margin": -0.014
+    },
+    "Avg footfall": {
+      "Avg monthly revenue": -0.169,
+      "Monthly rent": 0.021,
+      "Staffing % rev": 0.091,
+      "Rent % rev": 0.043,
+      "Gross margin": 0.164,
+      "Loyalty adoption": -0.026,
+      "Avg footfall": 1.0,
+      "Avg dwell (min)": 0.027,
+      "Opening year": -0.243,
+      "Net margin": -0.092
+    },
+    "Avg dwell (min)": {
+      "Avg monthly revenue": 0.091,
+      "Monthly rent": -0.001,
+      "Staffing % rev": -0.057,
+      "Rent % rev": -0.015,
+      "Gross margin": -0.107,
+      "Loyalty adoption": 0.027,
+      "Avg footfall": 0.027,
+      "Avg dwell (min)": 1.0,
+      "Opening year": -0.13,
+      "Net margin": 0.053
+    },
+    "Opening year": {
+      "Avg monthly revenue": -0.015,
+      "Monthly rent": -0.082,
+      "Staffing % rev": -0.146,
+      "Rent % rev": -0.081,
+      "Gross margin": -0.293,
+      "Loyalty adoption": -0.023,
+      "Avg footfall": -0.243,
+      "Avg dwell (min)": -0.13,
+      "Opening year": 1.0,
+      "Net margin": 0.146
+    },
+    "Net margin": {
+      "Avg monthly revenue": 0.23,
+      "Monthly rent": -0.42,
+      "Staffing % rev": -0.829,
+      "Rent % rev": -0.46,
+      "Gross margin": -0.118,
+      "Loyalty adoption": -0.014,
+      "Avg footfall": -0.092,
+      "Avg dwell (min)": 0.053,
+      "Opening year": 0.146,
+      "Net margin": 1.0
+    }
+  }
+}
